@@ -1,5 +1,6 @@
 package com.example.project.api.service
 
+import org.junit.Test
 import spock.lang.Specification
 
 import java.nio.charset.StandardCharsets
@@ -11,6 +12,7 @@ class KakaoUriBuilderServiceTest extends Specification {
         kakaoUriBuilderService = new KakaoUriBuilderService()
     }
 
+    @Test
     def "buildUriByAddressSearch - 한글 파라미터의 경우 정상적으로 인코딩"() {
         given:
         String address = "서울 성북구"

@@ -36,6 +36,12 @@ dependencies {
     testImplementation('org.spockframework:spock-core:2.1-groovy-3.0')
     testImplementation('org.spockframework:spock-spring:2.1-groovy-3.0')
     testImplementation('net.bytebuddy:byte-buddy:1.9.3')    // 런타임에 클래스 기반 spock mock을 만들기 위해 필요
+
+    // Test Container
+    testImplementation 'org.testcontainers:testcontainers:1.16.0'
+
+    testImplementation "org.testcontainers:spock:1.18.0"
+    testImplementation('org.testcontainers:mariadb:1.17.0')
 }
 
 tasks.named('test') {
