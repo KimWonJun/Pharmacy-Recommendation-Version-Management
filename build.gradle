@@ -40,8 +40,8 @@ dependencies {
     // Test Container
     testImplementation 'org.testcontainers:testcontainers:1.16.0'
 
-    testImplementation "org.testcontainers:spock:1.18.0"
-    testImplementation('org.testcontainers:mariadb:1.17.0')
+    testImplementation 'org.testcontainers:spock:1.18.0'
+    testImplementation 'org.testcontainers:mariadb:1.17.0'
 }
 
 tasks.named('test') {
