@@ -4,7 +4,6 @@ import com.example.project.AbstractIntegrationContainerBaseTest
 import com.example.project.pharmacy.entity.Pharmacy
 import com.example.project.pharmacy.repository.PharmacyRepository
 import org.springframework.beans.factory.annotation.Autowired
-import spock.lang.Specification
 
 class PharmacyRepositoryServiceTest extends AbstractIntegrationContainerBaseTest {
 
