@@ -49,6 +49,9 @@ dependencies {
 
     testImplementation 'org.testcontainers:spock:1.18.0'
     testImplementation 'org.testcontainers:mariadb:1.17.0'
+
+    // Handlebars
+    implementation 'pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.4'
 }
 
 tasks.named('test') {
